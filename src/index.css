@@ -20,7 +20,6 @@ h2 p{
 }
 
 .area-form{
-
     width: 80%;
     max-width: 32rem;
     background-color: white;
@@ -116,4 +115,14 @@ fieldset{
 .btn_gam{
     text-decoration: none;
     color: white;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.formjs {
+    padding-left: 5%;
 }

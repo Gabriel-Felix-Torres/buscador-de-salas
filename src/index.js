@@ -1,13 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import NameForm from "./formulario";
+import Lista from "./lista";
+import { FormProvider } from "./context/FormContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <NameForm />,
+  },
+  {
+    path: "/lista",
+    element: <Lista />,
+  },
+]);
+
+const root = document.getElementById("root");
+
+// Usando ReactDOM.createRoot() para renderizar o componente
+const rootElement = ReactDOM.createRoot(root);
+rootElement.render(
   <React.StrictMode>
-    <App />
+    <FormProvider>
+      <RouterProvider router={router} />
+    </FormProvider>
   </React.StrictMode>
 );
 

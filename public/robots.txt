@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+gabrielmcd11
+m200Me3PP8Zo20QI
+mongodb+srv://gabrielmcd11:m200Me3PP8Zo20QI@cluster0.bny23vt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+api: https://curved-organized-salesman.glitch.me
+codigo: https://glitch.com/edit/#!/curved-organized-salesman
