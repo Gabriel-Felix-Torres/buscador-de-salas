@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://curved-organized-salesman.glitch.me",
-  "homepage": "https://Gabriel-Felix-Torres.github.io/buscador-de-salas",
+  "homepage": "https://gabriel-felix-torres.github.io/buscador-de-salas",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
