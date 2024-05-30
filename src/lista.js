@@ -11,7 +11,7 @@ const Lista = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        await new Promise((resolve) => setTimeout(resolve, 500));
+        await new Promise((resolve) => setTimeout(resolve, 2000));
 
         const response = await axios.get("/api/disciplina", {
           params: {
