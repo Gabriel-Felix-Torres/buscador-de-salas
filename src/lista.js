@@ -13,10 +13,12 @@ const Lista = () => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
-        const response = await axios.get(`${apiUrl}
-        
-        
-        `); 
+        const response = await axios.get(`${apiUrl}/disciplina`, {
+          params: {
+            curso: dados.curso,
+            semestre: dados.semestre,
+          },
+        });
 
         setSalas(response.data);
         console.log(response);
