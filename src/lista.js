@@ -7,6 +7,7 @@ const Lista = () => {
   const { dados, setDados } = useContext(FormContext);
   const [salas, setSalas] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [hj, setHj] = useState(false);
   const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
     const fetchData = async () => {
@@ -24,6 +25,7 @@ const Lista = () => {
         console.log(response);
       } catch (err) {
         console.error(err);
+        setHj(true);
       } finally {
         setLoading(false);
       }
@@ -31,6 +33,10 @@ const Lista = () => {
     fetchData();
   }, []);
   if (!loading) {
+    if(hj){
+      return <div>erro!</div>
+      
+    }else
     return (
       <div>
         <div>
@@ -40,7 +46,7 @@ const Lista = () => {
           </p>
           {salas.map((sala, index) => {
             return (
-              <div key={index} style= {{border: '1px dashed black'}}>
+              <div key={index} style={{ border: "1px dashed black" }}>
                 <p>Disciplina: {sala.disciplina}</p>
                 <p>Professor: {sala.professor} </p>
                 <p>Sala: {sala.sala}</p>
@@ -53,6 +59,7 @@ const Lista = () => {
   } else {
     return <div>Carregando</div>;
   }
+  
 };
 
 export default Lista;
