@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/buscador-de-salas/static/css/main.60d863d7.css",
-    "main.js": "/buscador-de-salas/static/js/main.9685306a.js",
+    "main.js": "/buscador-de-salas/static/js/main.6e13518d.js",
     "static/js/453.58234ed1.chunk.js": "/buscador-de-salas/static/js/453.58234ed1.chunk.js",
     "index.html": "/buscador-de-salas/index.html",
     "main.60d863d7.css.map": "/buscador-de-salas/static/css/main.60d863d7.css.map",
-    "main.9685306a.js.map": "/buscador-de-salas/static/js/main.9685306a.js.map",
+    "main.6e13518d.js.map": "/buscador-de-salas/static/js/main.6e13518d.js.map",
     "453.58234ed1.chunk.js.map": "/buscador-de-salas/static/js/453.58234ed1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60d863d7.css",
-    "static/js/main.9685306a.js"
+    "static/js/main.6e13518d.js"
   ]
 }
