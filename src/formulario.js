@@ -6,7 +6,7 @@ import { FormContext } from "./context/FormContext";
 
 const NameForm = () => {
   const [submitted, setSubmitted] = useState(false);
-  const {dados, setDados} = useContext(FormContext) // Estado para armazenar os valores do formulário
+  const { dados, setDados } = useContext(FormContext); // Estado para armazenar os valores do formulário
 
   if (submitted) {
     console.log(dados);
@@ -16,6 +16,8 @@ const NameForm = () => {
 
   return (
     <div className="formjs">
+      <h1 className="titulo">Encontre sua Sala!</h1>
+      <p className="titulo1">SIS/TADS</p>
       <Formik
         initialValues={{
           nome: "",
@@ -97,7 +99,6 @@ const NameForm = () => {
       <Outlet />
     </div>
   );
-
 };
 
 export default NameForm;
