@@ -7,13 +7,13 @@ const Lista = () => {
   const { dados, setDados } = useContext(FormContext);
   const [salas, setSalas] = useState([]);
   const [loading, setLoading] = useState(true);
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
     const fetchData = async () => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
-        const response = await axios.get("/api/disciplina", {
+        const response = await axios.get(`${apiUrl}/disciplina`, {
           params: {
             curso: dados.curso,
             semestre: dados.semestre,
