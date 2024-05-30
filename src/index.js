@@ -10,7 +10,7 @@ import { FormProvider } from "./context/FormContext";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/buscador-de-salas",
     element: <NameForm />,
   },
   {
