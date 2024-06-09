@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/buscador-de-salas/static/css/main.c0ee4bfb.css",
-    "main.js": "/buscador-de-salas/static/js/main.e6d4b42d.js",
+    "main.css": "/buscador-de-salas/static/css/main.b9711d1b.css",
+    "main.js": "/buscador-de-salas/static/js/main.05ef1b4d.js",
     "static/js/453.58234ed1.chunk.js": "/buscador-de-salas/static/js/453.58234ed1.chunk.js",
+    "static/media/img-unidesc.png": "/buscador-de-salas/static/media/img-unidesc.71c56995cf41f617efd2.png",
     "index.html": "/buscador-de-salas/index.html",
-    "main.c0ee4bfb.css.map": "/buscador-de-salas/static/css/main.c0ee4bfb.css.map",
-    "main.e6d4b42d.js.map": "/buscador-de-salas/static/js/main.e6d4b42d.js.map",
+    "main.b9711d1b.css.map": "/buscador-de-salas/static/css/main.b9711d1b.css.map",
+    "main.05ef1b4d.js.map": "/buscador-de-salas/static/js/main.05ef1b4d.js.map",
     "453.58234ed1.chunk.js.map": "/buscador-de-salas/static/js/453.58234ed1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0ee4bfb.css",
-    "static/js/main.e6d4b42d.js"
+    "static/css/main.b9711d1b.css",
+    "static/js/main.05ef1b4d.js"
   ]
 }
