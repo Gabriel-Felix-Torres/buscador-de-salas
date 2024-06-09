@@ -87,8 +87,8 @@ const Lista = () => {
                 <div className="info" key={index}>
                   <section className="card">
                     <h3>{sala.sala}</h3>
-                    <span>{sala.disciplina}</span>
-                    <span>Professor(a): {sala.professor} </span>
+                    <p>{sala.disciplina}</p>
+                    <p>Professor(a): {sala.professor} </p>
                   </section>
                 </div>
               );

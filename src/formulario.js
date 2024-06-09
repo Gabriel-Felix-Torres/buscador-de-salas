@@ -56,7 +56,7 @@ const NameForm = () => {
                 <option value="">Selecione...</option>
                 <option value="sis">SIS- Sistemas de informação</option>
                 <option value="tads">
-                  TADS- Técnólogo em análise desenvolvimento de sistemas
+                  TADS- Tecnólogo em análise desenvolvimento de sistemas
                 </option>
               </Field>
               {formik.errors.curso && formik.touched.curso ? (
